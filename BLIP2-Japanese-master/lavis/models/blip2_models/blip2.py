@@ -15,8 +15,8 @@ import torch.nn as nn
 import torch.distributed as dist
 import torch.nn.functional as F
 
-# import sys
-# sys.path.append("C:\\Users\\ericz\\Documents\\Capstone\\Senior Thesis\\Thesis Code\\BLIP2-Japanese-master")
+import sys
+sys.path.append("C:\\Users\\ericz\\Documents\\Capstone\\Senior Thesis\\Thesis Code\\BLIP2-Japanese-master")
 
 import lavis.common.dist_utils as dist_utils
 from lavis.common.dist_utils import download_cached_file
